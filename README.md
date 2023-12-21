@@ -11,9 +11,11 @@ The objectives are the things we want to learn with this project:
    1. origin
    1. local
 1. Repository operations
+   1. `log` to check the history
+   1. `status` to check modifications
    1. Modify an existing file and
-      1. "saving" the changes (`add`)
-      1. "persisting" the changes (`commit`)
+      1. `add` to the staging area
+      1. `commit`, to add another history point
    1. Add a new file and ...
    1. "Send" the changes to the origin (`push`)
    1. "Check" if something has changed in the origin (`fetch`)
@@ -27,7 +29,7 @@ The easiest and preferred way is to install the `Xcode Command Line Tools`. From
 1. open the `Terminal`
 1. run `git --version`
 
-If `git` is not installed already, a prompt will appear asking you to instal it.
+If `git` is not installed already, a prompt will appear asking you to install it.
 
 Another method is to download the installer [here](https://git-scm.com/download/mac).
 
